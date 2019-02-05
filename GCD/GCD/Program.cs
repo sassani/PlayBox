@@ -6,9 +6,9 @@ namespace GCD
         static void Main(string[] args)
         {
             int[] testValue = new int[] {
-                22,
-                44,
-                2816
+                25896648,
+                44786624,
+                28472656
             };
             GCD gcd = new GCD();
             int test = gcd.GeneralGcd(testValue);
