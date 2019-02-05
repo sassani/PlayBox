@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace GCD
+namespace NumbersTheory
 {
     class GCD
     {

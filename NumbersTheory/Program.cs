@@ -1,5 +1,5 @@
 ﻿using System;
-namespace GCD
+namespace NumbersTheory
 {
     class Program
     {
@@ -13,7 +13,6 @@ namespace GCD
             GCD gcd = new GCD();
             int test = gcd.GeneralGcd(testValue);
             Console.WriteLine(test);
-            Console.ReadLine();
         }
     }
 }
