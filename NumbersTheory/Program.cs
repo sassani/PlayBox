@@ -5,14 +5,10 @@ namespace NumbersTheory
     {
         static void Main(string[] args)
         {
-            int[] testValue = new int[] {
-                25896648,
-                44786624,
-                28472656
-            };
-            GCD gcd = new GCD();
-            int test = gcd.GeneralGcd(testValue);
-            Console.WriteLine(test);
+            string num1 = "999";
+            string num2 = "9";
+
+            Console.WriteLine(AdvancedMath.MultiplyLongNumbers(num1,num2));
         }
     }
 }
